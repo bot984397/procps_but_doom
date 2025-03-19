@@ -6643,13 +6643,13 @@ static void do_memory (void) {
       { 1, "%.0f ", NULL },                             // kibibytes
 #ifdef BOOST_MEMORY
       { 1024.0, "%#.3f ", NULL },                       // mebibytes
-      { 1024.0*1024, "%#.3f ", NULL },                  // gibibytes
+      { 4096.0, "%#.3f ", NULL },                  // gibibytes
       { 1024.0*1024*1024, "%#.3f ", NULL },             // tebibytes
       { 1024.0*1024*1024*1024, "%#.3f ", NULL },        // pebibytes
       { 1024.0*1024*1024*1024*1024, "%#.3f ", NULL }    // exbibytes
 #else
       { 1024.0, "%#.1f ", NULL },                       // mebibytes
-      { 1024.0*1024, "%#.1f ", NULL },                  // gibibytes
+      { 4096.0, "%#.1f ", NULL },                  // gibibytes
       { 1024.0*1024*1024, "%#.1f ", NULL },             // tebibytes
       { 1024.0*1024*1024*1024, "%#.1f ", NULL },        // pebibytes
       { 1024.0*1024*1024*1024*1024, "%#.1f ", NULL }    // exbibytes

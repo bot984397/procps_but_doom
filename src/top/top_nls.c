@@ -492,7 +492,7 @@ static void build_norm_nlstab (void) {
    Norm_nlstab[AMT_megabyte_txt] = _("MiB");
 /* Translation Hint: This is an abbreviation (limit 3 characters) for:
    .                 gibibytes (1,073,741,824 bytes) */
-   Norm_nlstab[AMT_gigabyte_txt] = _("GiB");
+   Norm_nlstab[AMT_gigabyte_txt] = _("DOOMs");
 /* Translation Hint: This is an abbreviation (limit 3 characters) for:
    .                 tebibytes (1,099,511,627,776 bytes) */
    Norm_nlstab[AMT_terabyte_txt] = _("TiB");
